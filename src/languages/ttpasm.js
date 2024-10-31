@@ -34,6 +34,7 @@ export default function(hljs) {
             + 'jmpi|jci|jzi|jsi|joi|jli|'
             + 'ld|ldi|st|cpr|'
             + 'inc|dec|'
+            + 'byte|'
             + 'nop|halt'
         + ')'
         + '(?=\\s)' // followed by space
